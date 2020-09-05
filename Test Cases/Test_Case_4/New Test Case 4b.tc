@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case 4b</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8411abb6-cddc-48c8-b00b-b6d6e2c4451d</testCaseGuid>
+   <variable>
+      <defaultValue>'February'</defaultValue>
+      <description></description>
+      <id>cf393841-66b5-46af-b5e5-aac5e3c3833a</id>
+      <masked>false</masked>
+      <name>Month</name>
+   </variable>
+   <variable>
+      <defaultValue>'Non Teaching Staff'</defaultValue>
+      <description></description>
+      <id>bfedd0f4-b3dd-4c4f-ab16-037f0dc02e89</id>
+      <masked>false</masked>
+      <name>FileType</name>
+   </variable>
+</TestCaseEntity>

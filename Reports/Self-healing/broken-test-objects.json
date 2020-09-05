@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Gallery/a_Census Upload_1",
+      "brokenLocator": "//table[@id\u003d\u0027dataGrid\u0027]/tbody/tr/td[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Census Upload\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Gallery/a_Census Upload_1_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Gallery  Census Upload/a_Run",
+      "brokenLocator": "//div[@id\u003d\u0027main\u0027]/div[2]/ul/li/ul/li[2]/div/div[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Download\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Gallery  Census Upload/a_Run_neighbor.png"
+    }
+  ]
 }
